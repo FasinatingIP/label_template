@@ -10,11 +10,9 @@ import streamlit as st
 import openpyxl
 import copy
 import pandas as pd
-import os
-
 import io
 buffer = io.BytesIO()
-
+#print(copy.__version__)
 st.set_page_config(
     page_title="quote",    #页面标题
     page_icon=":rainbow:",        #icon:emoji":rainbow:"
